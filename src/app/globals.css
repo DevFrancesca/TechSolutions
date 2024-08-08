@@ -15,8 +15,14 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-start-rgb));
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* color: rgb(var(--foreground-rgb)); */
 }
 
 *{
