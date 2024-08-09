@@ -2,33 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 214, 219, 220;
+@layer components{
+  .custom-component{
+    padding: 1rem;
+
+    @screen md {
+      padding: 2rem;
+    }
+    @screen lg {
+      padding: 3rem;
+    }
+  }
+ 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 0, 0, 0;
+@layer utilities{
+  
+  @keyframes wiggle {
+    0%, 100% {transform: rotate(-3deg);}
+    50% {transform: rotate(-3deg);}
+  }
+  .hover-wiggle{
+    @apply transition-transform duration-300 ease-in-out
+  }
+  .hover-wiggle:hover{
+    animation: wiggle 0.5s ease-in-out;
   }
 }
 
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(var(--background-start-rgb));
   width: 100vw;
-  height: max-content;
+  min-height: 100vh;
+  margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 @layer utilities {
   .text-balance {
