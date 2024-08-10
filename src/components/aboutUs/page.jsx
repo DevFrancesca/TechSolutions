@@ -1,26 +1,26 @@
 import React from 'react'
 
-const Heroes = () => {
+const AboutUs = () => {
   return (
-    <div className="h-screen w-screen bg-[url('/bg2.avif')] bg-cover bg-center bg-no-repeat flex items-center justify-center">
-      <section className="w-11/12 sm:w-4/5 md:w-3/4 lg:w-2/4 h-auto sm:h-2/3 bg-red-400 p-4 sm:p-6 md:p-8 flex flex-col justify-evenly items-center text-center rounded-md shadow-lg">
-        <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white">
-          TECH SOLUTIONS
-        </h1>
-        <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi similique error asperiores porro modi recusandae laborum deserunt tenetur architecto sed. Aut harum error vero beatae veniam. Tenetur, deserunt! Aut, modi.
-        </p>
-        <div className="w-full sm:w-3/4 md:w-2/3 h-16 flex justify-around items-center">
-          <button className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300">
-            Learn More
-          </button>
-          <button className="bg-white text-teal-500 px-4 py-2 rounded-md hover:bg-gray-200 transition duration-300">
-            Get Started
-          </button>
-        </div>
-      </section>
+    <div className="h-[100vh] sm:h-[30vh] md:h-[40vh] lg:h-[100vh] w-screen bg-slate-500 flex justify-center items-center flex-col">
+        <article className="h-[50vh] w-full flex justify-between items-center">
+            <section className="w-[45vw] sm:w-4/5 md:w-3/4 lg:w-2/4 h-auto sm:h-full p-4 sm:p-6 md:p-8 flex items-center justify-evenly flex-col px-4 bg-white/30 rounded-lg shadow-md">
+                <h2  class="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl font-bold text-teal-600">
+                We at Tech Solutions <br/> make impact matter a lot
+                </h2>
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black text-center">Over the past 10 years we have continued to work with private businesses across
+                    the globe- to help them build online presence and grow their client base. <br /> Our 
+                    workforce is made up of the industry's finest minds and as such we continue to deliver results that are real and measurable.
+                </p>
+            </section>
+            <section className="h-full w-[45vw] flex justify-center items-center">
+                <img src="/img.jpeg" alt="" className="w-11/12 h-full object-contain rounded-md shadow-md"/>
+            </section>
+        </article>
+        <article className="h-[50vh] w-full flex justify-between items-center bg-green-500"></article>
+      
     </div>
   )
 }
 
-export default Heroes
+export default AboutUs
