@@ -1,3 +1,4 @@
+'use client'
 import AboutUs from "@/components/aboutUs/page";
 import Heroes from "@/components/heroes/page";
 import News from "@/components/news/page";

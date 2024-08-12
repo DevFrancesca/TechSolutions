@@ -12,7 +12,7 @@ const Heroes = () => {
         <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi similique error asperiores porro modi recusandae laborum deserunt tenetur architecto sed. Aut harum error vero beatae veniam. Tenetur, deserunt! Aut, modi.
           </p>
-        <div className="w-full sm:w-1/2 md:w-2/5 h-16 flex justify-between items-center"
+        <div className="w-full sm:w-1/2 md:w-2/3 h-16 flex justify-evenly items-center"
         >
           <button className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300">
             Contact Us
