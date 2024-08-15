@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Heroes = () => {
   return (
@@ -15,7 +16,7 @@ const Heroes = () => {
         <div className="w-full sm:w-1/2 md:w-2/3 h-16 flex justify-evenly items-center"
         >
           <button className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 transition duration-300">
-            Contact Us
+          <Link href="/contact">Contact Us</Link>
           </button >
 
           <button className="bg-white text-teal-500 px-4 py-2 rounded-md hover:bg-gray-200 transition duration-300">
