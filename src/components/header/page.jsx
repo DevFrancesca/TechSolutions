@@ -14,7 +14,7 @@ const Header = () => {
       <article className="flex-1 h-full flex items-center">
         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-teal-600">TechSolutions</h1>
       </article>
-      <nav className="flex-1 h-full flex justify-end">
+      <nav className="flex-1 h-full flex justify-end md:justify-center">
         <div className="flex items-center md:hidden">
           <button className="text-teal-600 focus:outline-none" onClick={toggleBurger}>
             <svg
@@ -57,9 +57,9 @@ const Header = () => {
         </ul>
       </nav>
 
-      <article className="w-1/5 h-full flex items-center justify-center"></article>
+      <article className="w-1/5 h-full flex items-center justify-center md:hidden"></article>
     </div>
   );
 };
 
-export default Header
+export default Header;

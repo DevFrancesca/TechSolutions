@@ -38,7 +38,6 @@ body {
   background-color: rgb(var(--background-start-rgb));
   width: 100vw;
   min-height: 100vh;
-  /* margin-inline: 17px; */
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
