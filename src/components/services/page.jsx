@@ -15,12 +15,12 @@ const Services = () => {
     },
     {
       title: "Tech Insights",
-      img: "/finance.jpeg",
-      content: "TechSolution helps organisation with their digital transformation which is an essential strategy for groth in our fast paced world today.",
+      img: "/tech2.jpeg",
+      content: "TechSolution helps organisation with their digital transformation which is an essential strategy for growth in our fast paced world today.",
     },
   ]
   return (
-    <article className="w-screen h-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col justify-evenly">
+    <article className="w-screen h-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col justify-evenly bg-slate-200">
       <h2 className="text-2xl text-center font-bold mb-6 text-teal-700">Our Services</h2>
       <section className="w-full flex flex-col sm:flex-row justify-evenly items-center gap-6">
       {Articles.map((services, index)=>(

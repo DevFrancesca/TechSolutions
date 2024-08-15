@@ -26,14 +26,14 @@ const ContactUs = () => {
   return (
     <section className="w-screen min-h-screen bg-gray-100 flex justify-center items-center py-12">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full">
-        <h2 className="text-2xl font-bold text-teal-600 mb-6">Get in Touch</h2>
+        <h2 className="text-2xl font-bold text-teal-600 mb-6">Contact TechSolutions</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block text-gray-700">Name:</label>
+            <label htmlFor="name" className="block text-gray-700">Name</label>
             <input 
               type="text" 
               id="name" 
-              name="name" 
+              name="name"
               value={formData.name} 
               onChange={handleInputChange} 
               required 
@@ -41,7 +41,7 @@ const ContactUs = () => {
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-gray-700">Email:</label>
+            <label htmlFor="email" className="block text-gray-700">Email</label>
             <input 
               type="email" 
               id="email" 
@@ -53,7 +53,7 @@ const ContactUs = () => {
             />
           </div>
           <div>
-            <label htmlFor="phone" className="block text-gray-700">Phone:</label>
+            <label htmlFor="phone" className="block text-gray-700">Phone</label>
             <input 
               type="tel" 
               id="phone" 
@@ -65,7 +65,7 @@ const ContactUs = () => {
             />
           </div>
           <div>
-            <label htmlFor="company" className="block text-gray-700">Company:</label>
+            <label htmlFor="company" className="block text-gray-700">Company</label>
             <input 
               type="text" 
               id="company" 
@@ -76,7 +76,7 @@ const ContactUs = () => {
             />
           </div>
           <div>
-            <label htmlFor="message" className="block text-gray-700">Message:</label>
+            <label htmlFor="message" className="block text-gray-700">Message</label>
             <textarea 
               id="message" 
               name="message" 
