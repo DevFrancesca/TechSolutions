@@ -27,11 +27,10 @@ const AboutUs = () => {
                 </h2>
                 <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black text-center">Over the past 10 years we have continued to work with private businesses across
                     the globe- to help them build online presence and grow their client base. <br /> Our 
-                    workforce is made up of the industry's finest minds and as such we continue to deliver results that are real and measurable.
+                    workforce is made up of the industry finest minds and as such we continue to deliver results that are real and measurable.
                 </p>
             </section>
-            <section className="h-full w-[45vw] flex justify-center items-center">
-                <img src="/img.jpeg" alt="" className="w-11/12 h-full object-contain rounded-md shadow-lg"/>
+            <section className="bg-cover bg-center bg-no-repeat h-full w-[45vw] rounded-md shadow-lg" style={{backgroundImage: "url('/img.jpeg')"}}>
             </section>
         </article>
         <section className="w-full flex flex-col sm:flex-row justify-evenly items-center">
